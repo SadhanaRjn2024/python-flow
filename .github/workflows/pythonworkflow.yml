@@ -17,7 +17,7 @@ jobs:
           cache: 'pip' # caching pip dependencies
        - run: cat requirements.txt
        - run: pip install -r requirements.txt
-       - run: ls -ltra
-       - run: executing test
-       - run: pytest 
+       
+       - name: executing test
+         run: pytest 
 
