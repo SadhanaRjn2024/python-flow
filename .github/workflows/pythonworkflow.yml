@@ -26,8 +26,8 @@ jobs:
        - name: Install docker
         uses: docker-practice/actions-setup-docker@master
         timeout-minutes: 12
-      - name: Build docker image
-        run: |
+       - name: Build docker image
+         run: |
           set -x
           docker version
           docker build -t pythondockerimg . 
