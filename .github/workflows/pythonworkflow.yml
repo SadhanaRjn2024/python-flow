@@ -37,4 +37,4 @@ jobs:
             username: ${{ secrets.DOCKERHUB_USERNAME }}
             password: ${{ secrets.DOCKERHUB_TOKEN }} 
        - name: docker push
-         run: docker push sadhana04/pydoc
+         run: docker push sadhana04/pythondockerimg
