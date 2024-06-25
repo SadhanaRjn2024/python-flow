@@ -18,3 +18,6 @@ jobs:
        - run: cat requirements.txt
        - run: pip install -r requirements.txt
        - run: ls -ltra
+       - run: executing test
+       - run: pytest 
+
