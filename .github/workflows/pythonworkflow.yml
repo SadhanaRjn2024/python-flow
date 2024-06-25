@@ -24,8 +24,8 @@ jobs:
        - name: checking execution
          run: echo error ignored
        - name: Install docker
-        uses: docker-practice/actions-setup-docker@master
-        timeout-minutes: 12
+         uses: docker-practice/actions-setup-docker@master
+         timeout-minutes: 12
        - name: Build docker image
          run: |
           set -x
